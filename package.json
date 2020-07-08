@@ -1,0 +1,19 @@
+{
+  "name": "netanel-zaffran-07-07-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run-script start",
+    "server": "nodemon index.js",
+    "start": "concurrently --kill-others-on-fail \"npm run-script server\" \"npm run-script client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
+  }
+}
