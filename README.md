@@ -1,6 +1,10 @@
 # netanel-zaffran-07-07-2020
+npm install from the root project
+
+npm install from client folder
 
 "npm start" from the root project it will run the server and the client
+
 http://localhost:3000    to listen the client
 
 
