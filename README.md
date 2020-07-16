@@ -1,4 +1,4 @@
-# netanel-zaffran-07-07-2020
+# Accuweather
 npm install from the root project
 
 npm install from client folder
